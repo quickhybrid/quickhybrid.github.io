@@ -1,0 +1,1054 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>api_runtime · quickhybrid</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="dailc">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../api_ui/api_ui.html" />
+    
+    
+    <link rel="prev" href="../api_page/api_page.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"quickhybrid/quickhybrid","types":["star","watch","fork"],"size":"small"};
+    </script>
+
+    
+        <link rel="shortcut icon" href='../../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.quickhybrid.com" target="_blank" class="custom-link">quickhybrid.com</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">整体概要</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../changelog.html">
+            
+                <a href="../../changelog.html">
+            
+                    
+                    更新日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../guid/structure/structure.html">
+            
+                <a href="../../guid/structure/structure.html">
+            
+                    
+                    架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../guid/guid_start.html">
+            
+                <a href="../../guid/guid_start.html">
+            
+                    
+                    快速开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../guid/guid_showcase.html">
+            
+                <a href="../../guid/guid_showcase.html">
+            
+                    
+                    showcase
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../guid/guid_effect.html">
+            
+                <a href="../../guid/guid_effect.html">
+            
+                    
+                    效果展示
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">基本使用</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../baseuse/guid_getstart/guid_getstart.html">
+            
+                <a href="../../baseuse/guid_getstart/guid_getstart.html">
+            
+                    
+                    开始开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../baseuse/guid_apiconstraint/guid_apiconstraint.html">
+            
+                <a href="../../baseuse/guid_apiconstraint/guid_apiconstraint.html">
+            
+                    
+                    API约束
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../baseuse/jsapi/jsapi.html">
+            
+                <a href="../../baseuse/jsapi/jsapi.html">
+            
+                    
+                    JSAPI权限
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../baseuse/promisesupport/promisesupport.html">
+            
+                <a href="../../baseuse/promisesupport/promisesupport.html">
+            
+                    
+                    Promise支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../../baseuse/guid_demodebug/guid_demodebug.html">
+            
+                <a href="../../baseuse/guid_demodebug/guid_demodebug.html">
+            
+                    
+                    Demo与调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">API</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../api_global/api_global.html">
+            
+                <a href="../api_global/api_global.html">
+            
+                    
+                    全局调用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../api_auth/api_auth.html">
+            
+                <a href="../api_auth/api_auth.html">
+            
+                    
+                    api_auth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../api_device/api_device.html">
+            
+                <a href="../api_device/api_device.html">
+            
+                    
+                    api_device
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../api_navigator/api_navigator.html">
+            
+                <a href="../api_navigator/api_navigator.html">
+            
+                    
+                    api_navigator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../api_page/api_page.html">
+            
+                <a href="../api_page/api_page.html">
+            
+                    
+                    api_page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.6" data-path="api_runtime.html">
+            
+                <a href="api_runtime.html">
+            
+                    
+                    api_runtime
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../api_ui/api_ui.html">
+            
+                <a href="../api_ui/api_ui.html">
+            
+                    
+                    api_ui
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../api_util/api_util.html">
+            
+                <a href="../api_util/api_util.html">
+            
+                    
+                    api_util
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">组件API</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../component/component_outline/component_outline.html">
+            
+                <a href="../../component/component_outline/component_outline.html">
+            
+                    
+                    如何使用组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../component/component_pay/component_pay.html">
+            
+                <a href="../../component/component_pay/component_pay.html">
+            
+                    
+                    测试的支付组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">原理系列</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../howto/quickhybrid_preface/quickhybrid_preface.html">
+            
+                <a href="../../howto/quickhybrid_preface/quickhybrid_preface.html">
+            
+                    
+                    【quickhybrid】如何实现一个跨平台Hybrid框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../../howto/quickhybrid_framework/quickhybrid_framework.html">
+            
+                <a href="../../howto/quickhybrid_framework/quickhybrid_framework.html">
+            
+                    
+                    【quick hybrid】架构一个Hybrid框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../../howto/quickhybrid_native2h5interaction/quickhybrid_native2h5interaction.html">
+            
+                <a href="../../howto/quickhybrid_native2h5interaction/quickhybrid_native2h5interaction.html">
+            
+                    
+                    【quick hybrid】H5和Native交互原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../../howto/quickhybrid_jsbridge/quickhybrid_jsbridge.html">
+            
+                <a href="../../howto/quickhybrid_jsbridge/quickhybrid_jsbridge.html">
+            
+                    
+                    【quick hybrid】JSBridge的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../../howto/quickhybrid_h5ornative/quickhybrid_h5ornative.html">
+            
+                <a href="../../howto/quickhybrid_h5ornative/quickhybrid_h5ornative.html">
+            
+                    
+                    【quick hybrid】H5和原生的职责划分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="../../howto/quickhybrid_apiclassify/quickhybrid_apiclassify.html">
+            
+                <a href="../../howto/quickhybrid_apiclassify/quickhybrid_apiclassify.html">
+            
+                    
+                    【quick hybrid】API的分类：短期API、长期API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="../../howto/quickhybrid_apiplanning/quickhybrid_apiplanning.html">
+            
+                <a href="../../howto/quickhybrid_apiplanning/quickhybrid_apiplanning.html">
+            
+                    
+                    【quick hybrid】API规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="../../howto/quickhybrid_apimultiplatform/quickhybrid_apimultiplatform.html">
+            
+                <a href="../../howto/quickhybrid_apimultiplatform/quickhybrid_apimultiplatform.html">
+            
+                    
+                    【quick hybrid】API多平台支撑的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="../../howto/quickhybrid_apicomponents/quickhybrid_apicomponents.html">
+            
+                <a href="../../howto/quickhybrid_apicomponents/quickhybrid_apicomponents.html">
+            
+                    
+                    【quick hybrid】组件（自定义）API的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="../../howto/quickhybrid_apijs/quickhybrid_apijs.html">
+            
+                <a href="../../howto/quickhybrid_apijs/quickhybrid_apijs.html">
+            
+                    
+                    【quick hybrid】JS端的项目实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.11" data-path="../../howto/quickhybrid_apiandroid/quickhybrid_apiandroid.html">
+            
+                <a href="../../howto/quickhybrid_apiandroid/quickhybrid_apiandroid.html">
+            
+                    
+                    【quick hybrid】Android端的项目实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.12" data-path="../../howto/quickhybrid_apiios/quickhybrid_apiios.html">
+            
+                <a href="../../howto/quickhybrid_apiios/quickhybrid_apiios.html">
+            
+                    
+                    【quick hybrid】iOS端的项目实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">其它资料</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../contribute/discuss.html">
+            
+                <a href="../../contribute/discuss.html">
+            
+                    
+                    交流讨论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../../contribute/relateproject.html">
+            
+                <a href="../../contribute/relateproject.html">
+            
+                    
+                    相关项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >api_runtime</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#quickruntime"><b></b>quick.runtime</a></li><ul><li><span class="title-icon "></span><a href="#launchapp"><b></b>launchApp</a></li><li><span class="title-icon "></span><a href="#getappversion"><b></b>getAppVersion</a></li><li><span class="title-icon "></span><a href="#getquickversion"><b></b>getQuickVersion</a></li><li><span class="title-icon "></span><a href="#getgeolocation"><b></b>getGeolocation</a></li><li><span class="title-icon "></span><a href="#clearcache"><b></b>clearCache</a></li><li><span class="title-icon "></span><a href="#clipboard"><b></b>clipboard</a></li><li><span class="title-icon "></span><a href="#openurl"><b></b>openUrl</a></li></ul></ul></div><a href="#quickruntime" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="quickruntime"><a name="quickruntime" class="anchor-navigation-ex-anchor" href="#quickruntime"><i class="fa fa-link" aria-hidden="true"></i></a>quick.runtime</h1>
+<h2 id="launchapp"><a name="launchapp" class="anchor-navigation-ex-anchor" href="#launchapp"><i class="fa fa-link" aria-hidden="true"></i></a>launchApp</h2>
+<p>&#x6253;&#x5F00;&#x7B2C;&#x4E09;&#x65B9;APP</p>
+<pre><code class="lang-js">quick.runtime.launchApp({
+    packageName: <span class="hljs-string">&apos;&apos;</span>,
+    className: <span class="hljs-string">&apos;&apos;</span>,
+    actionName: <span class="hljs-string">&apos;&apos;</span>,
+    scheme: <span class="hljs-string">&apos;taobao://&apos;</span>,
+    data: <span class="hljs-string">&apos;testdata&apos;</span>
+    success: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{},
+    error: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{}
+});
+</code></pre>
+<p><strong>&#x53C2;&#x6570;&#x8BF4;&#x660E;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:center">&#x53C2;&#x6570;&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">packageName</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">Android&#x5E94;&#x7528;&#x7684;&#x5305;&#x540D;</td>
+</tr>
+<tr>
+<td style="text-align:left">className</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">Android&#x5E94;&#x7528;&#x9875;&#x9762;&#x7C7B;&#x540D;</td>
+</tr>
+<tr>
+<td style="text-align:left">actionName</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">Android&#x5E94;&#x7528;&#x9875;&#x9762;&#x914D;&#x7F6E;&#x7684;ActionName</td>
+</tr>
+<tr>
+<td style="text-align:left">scheme</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">&#x9875;&#x9762;&#x914D;&#x7F6E;&#x7684;Scheme&#x540D;&#x5B57;&#xFF0C;&#x9002;&#x7528;&#x4E8E;Android&#x4E0E;iOS</td>
+</tr>
+<tr>
+<td style="text-align:left">data</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">&#x4F20;&#x9012;&#x7684;&#x53C2;&#x6570;&#x3002;&#x9700;&#x8981;&#x76EE;&#x6807;&#x5E94;&#x7528;&#x89E3;&#x6790;&#x83B7;&#x53D6;&#x53C2;&#x6570;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x73AF;&#x5883;&#x652F;&#x6301;</strong></p>
+<p><code>quick</code></p>
+<h2 id="getappversion"><a name="getappversion" class="anchor-navigation-ex-anchor" href="#getappversion"><i class="fa fa-link" aria-hidden="true"></i></a>getAppVersion</h2>
+<p>&#x83B7;&#x53D6;&#x5BB9;&#x5668;&#x7248;&#x672C;&#x53F7;</p>
+<pre><code class="lang-js">quick.runtime.getVersion({
+    success: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{
+        <span class="hljs-comment">/**
+         * {
+                version: &apos;7.0.0&apos;
+           }
+         */</span>
+    },
+    error: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{}
+});
+</code></pre>
+<p><strong>&#x8FD4;&#x56DE;&#x8BF4;&#x660E;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:center">&#x53C2;&#x6570;&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">version</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">&#x5BB9;&#x5668;&#x7684;&#x7248;&#x672C;&#x53F7;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x73AF;&#x5883;&#x652F;&#x6301;</strong></p>
+<p><code>quick</code></p>
+<h2 id="getquickversion"><a name="getquickversion" class="anchor-navigation-ex-anchor" href="#getquickversion"><i class="fa fa-link" aria-hidden="true"></i></a>getQuickVersion</h2>
+<p>&#x83B7;&#x53D6;&#x5BB9;&#x5668;&#x7684;Quick&#x7248;&#x672C;&#x53F7;</p>
+<p>&#x6CE8;&#xFF0C;&#x662F;&#x5BB9;&#x5668;&#x7684;Quick&#x7248;&#x672C;&#x53F7;&#xFF0C;&#x4E0E;&#x524D;&#x7AEF;&#x7684;Quick&#x7248;&#x672C;&#x53F7;&#x4E0D;&#x4E00;&#x6837;&#xFF0C;&#x524D;&#x7AEF;Quick&#x7248;&#x672C;&#x53F7;&#x901A;&#x8FC7;<code>quick.version</code>&#x83B7;&#x53D6;</p>
+<pre><code class="lang-js">quick.runtime.getQuickVersion({
+    success: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{
+        <span class="hljs-comment">/**
+         * {
+                version: &apos;3.0.0&apos;
+           }
+         */</span>
+    },
+    error: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{}
+});
+</code></pre>
+<p><strong>&#x8FD4;&#x56DE;&#x8BF4;&#x660E;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:center">&#x53C2;&#x6570;&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">version</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">&#x5BB9;&#x5668;&#x7684;Quick&#x7248;&#x672C;&#x53F7;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x73AF;&#x5883;&#x652F;&#x6301;</strong></p>
+<p><code>quick</code></p>
+<h2 id="getgeolocation"><a name="getgeolocation" class="anchor-navigation-ex-anchor" href="#getgeolocation"><i class="fa fa-link" aria-hidden="true"></i></a>getGeolocation</h2>
+<p>&#x83B7;&#x53D6;&#x5730;&#x7406;&#x4F4D;&#x7F6E;</p>
+<pre><code class="lang-js">quick.runtime.getGeolocation({
+    success: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{
+        <span class="hljs-comment">/**
+         * {
+                longitude: &quot;31.896201&quot;,
+                latitude: &quot;120.573466&quot;,
+                addressComponent: {
+                    &quot;country&quot;: &quot;&#x4E2D;&#x56FD;&quot;, 
+                    &quot;country_code&quot;: 0,
+                    &quot;province&quot;: &quot;&#x6C5F;&#x82CF;&#x7701;&quot;,
+                    &quot;city&quot;: &quot;&#x82CF;&#x5DDE;&#x5E02;&quot;,
+                    &quot;district&quot;: &quot;&#x5F20;&#x5BB6;&#x6E2F;&#x5E02;&quot;,
+                    &quot;adcode&quot;: &quot;320582&quot;,
+                    &quot;street&quot;: &quot;&#x4E00;&#x5E72;&#x6CB3;&#x4E1C;&#x8DEF;&quot;,
+                    &quot;street_number&quot;: &quot;&quot;,
+                    &quot;direction&quot;: &quot;&quot;,
+                    &quot;distance&quot;: &quot;&quot;
+                }
+           }
+         */</span>
+    },
+    error: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{}
+});
+</code></pre>
+<p>&#x8B6C;&#x5982;&#x56FD;&#x5185;<code>H5</code>&#x767E;&#x5EA6;&#x5730;&#x56FE;&#x9ED8;&#x8BA4;&#x63A5;&#x6536;&#x7684;&#x662F;&#x706B;&#x661F;&#x5750;&#x6807;&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x6709;&#x504F;&#x5DEE;</p>
+<p>&#x4E00;&#x822C;&#x624B;&#x673A;<code>app</code>&#x7684;&#x9ED8;&#x8BA4;&#x83B7;&#x53D6;&#x5B9A;&#x4F4D;&#x662F;&#x5730;&#x7403;&#x5750;&#x6807;&#xFF08;&#x4E0D;&#x901A;&#x8FC7;&#x4E09;&#x65B9;SDK&#xFF09;</p>
+<p><strong>&#x53C2;&#x6570;&#x8BF4;&#x660E;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:center">&#x53C2;&#x6570;&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">coordinate</td>
+<td style="text-align:center">Number</td>
+<td style="text-align:left">&#x9ED8;&#x8BA4;&#x4E3A;<code>1</code>&#xFF0C;<code>1</code>&#x4EE3;&#x8868;&#x706B;&#x661F;&#x5750;&#x6807;&#x7CFB;<code>GCJ-02</code>&#xFF08;&#x5929;&#x671D;&#x7279;&#x8272;&#xFF0C;&#x5E26;&#x504F;&#x5DEE;&#xFF0C;&#x56FD;&#x5185;&#x9AD8;&#x5FB7;&#x5750;&#x6807;&#x4E5F;&#x662F;&#x8FD9;&#x4E2A;&#xFF09;&#xFF0C;<code>0</code>&#x4EE3;&#x8868;&#x5730;&#x7403;&#x5750;&#x6807;&#x7CFB;<code>WGS84</code>&#xFF08;&#x6807;&#x51C6;&#x5750;&#x6807;&#xFF09;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x8FD4;&#x56DE;&#x8BF4;&#x660E;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:center">&#x53C2;&#x6570;&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">longitude</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">&#x7ECF;&#x5EA6;</td>
+</tr>
+<tr>
+<td style="text-align:left">latitude</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">&#x7EF4;&#x5EA6;</td>
+</tr>
+<tr>
+<td style="text-align:left">addressComponent</td>
+<td style="text-align:center">Object</td>
+<td style="text-align:left">&#x8BE6;&#x7EC6;&#x7684;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#xFF0C;&#x5185;&#x90E8;&#x5305;&#x542B;&#x8BE6;&#x7EC6;&#x7684;&#x7701;&#x5E02;&#x53BF;&#x7B49;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x73AF;&#x5883;&#x652F;&#x6301;</strong></p>
+<p><code>quick</code></p>
+<h2 id="clearcache"><a name="clearcache" class="anchor-navigation-ex-anchor" href="#clearcache"><i class="fa fa-link" aria-hidden="true"></i></a>clearCache</h2>
+<p>&#x6E05;&#x9664;&#x5BB9;&#x5668;&#x7F13;&#x5B58;</p>
+<p>&#x76F8;&#x5173;&#x7F13;&#x5B58;&#x5305;&#x62EC;&#x56FE;&#x7247;&#x7F13;&#x5B58;&#x7B49;</p>
+<pre><code class="lang-js">quick.runtime.clearCache({
+    success: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{},
+    error: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{}
+});
+</code></pre>
+<p><strong>&#x73AF;&#x5883;&#x652F;&#x6301;</strong></p>
+<p><code>quick</code></p>
+<h2 id="clipboard"><a name="clipboard" class="anchor-navigation-ex-anchor" href="#clipboard"><i class="fa fa-link" aria-hidden="true"></i></a>clipboard</h2>
+<p>&#x590D;&#x5236;&#x6587;&#x672C;&#x4FE1;&#x606F;&#x5230;&#x526A;&#x5207;&#x677F;</p>
+<pre><code class="lang-js">quick.runtime.clipboard({
+    text: <span class="hljs-string">&quot;&quot;</span>,
+    success: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{},
+    error: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{}
+});
+
+<span class="hljs-comment">// &#x652F;&#x6301;&#x5FEB;&#x901F;&#x8C03;&#x7528;</span>
+quick.runtime.clipboard(<span class="hljs-string">&quot;&#x9700;&#x8981;&#x590D;&#x5236;&#x7684;&#x6587;&#x672C;&quot;</span>);
+</code></pre>
+<p><strong>&#x53C2;&#x6570;&#x8BF4;&#x660E;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:center">&#x53C2;&#x6570;&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">text</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">&#x9700;&#x8981;&#x590D;&#x5236;&#x7684;&#x6587;&#x672C;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x73AF;&#x5883;&#x652F;&#x6301;</strong></p>
+<p><code>quick</code></p>
+<h2 id="openurl"><a name="openurl" class="anchor-navigation-ex-anchor" href="#openurl"><i class="fa fa-link" aria-hidden="true"></i></a>openUrl</h2>
+<p>&#x5916;&#x90E8;&#x6D4F;&#x89C8;&#x5668;&#x6253;&#x5F00;url</p>
+<pre><code class="lang-js">quick.runtime.openUrl({
+    url: <span class="hljs-string">&quot;https://www.baidu.com/&quot;</span>,
+    success: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{},
+    error: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{}
+});
+
+<span class="hljs-comment">// &#x652F;&#x6301;&#x5FEB;&#x901F;&#x8C03;&#x7528;</span>
+quick.runtime.openUrl(<span class="hljs-string">&quot;https://www.baidu.com/&quot;</span>);
+</code></pre>
+<p><strong>&#x53C2;&#x6570;&#x8BF4;&#x660E;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:center">&#x53C2;&#x6570;&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">url</td>
+<td style="text-align:center">String</td>
+<td style="text-align:left">&#x9700;&#x8981;&#x88AB;&#x6253;&#x5F00;&#x7684;url</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x73AF;&#x5883;&#x652F;&#x6301;</strong></p>
+<p><code>quick</code> </p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; dailc 2017 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2017-12-21 16:33:43
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../api_page/api_page.html" class="navigation navigation-prev " aria-label="Previous page: api_page">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../api_ui/api_ui.html" class="navigation navigation-next " aria-label="Next page: api_ui">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"api_runtime","level":"3.6","depth":1,"next":{"title":"api_ui","level":"3.7","depth":1,"path":"api/api_ui/api_ui.md","ref":"api/api_ui/api_ui.md","articles":[]},"previous":{"title":"api_page","level":"3.5","depth":1,"path":"api/api_page/api_page.md","ref":"api/api_page/api_page.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-livereload","search-plus@^0.0.11","tbfed-pagefooter@^0.0.1","expandable-chapters@^0.2.0","anchor-navigation-ex@^1.0.4","ace@^0.3.2","sectionx@^3.1.0","splitter@^0.0.8","sitemap-general@^0.1.1","favicon@^0.0.2","todo@^0.1.3","3-ba@^0.9.0","github-buttons@^2.1.0"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © dailc 2017","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"ace":{},"todo":{},"splitter":{},"sitemap-general":{"prefix":"http://www.quickhybrid.com"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{"tag":"b"},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":false},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"github-buttons":{"repo":"quickhybrid/quickhybrid","types":["star","watch","fork"],"size":"small"},"3-ba":{"configuration":"auto","token":"e2a59eb4f9c114693bf024085d12fe22"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":true,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"dailc","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"quickhybrid","language":"zh-hans","links":{"sidebar":{"quickhybrid.com":"http://www.quickhybrid.com"}},"gitbook":"3.2.2","description":"quickhybrid - 快速混合开发框架"},"file":{"path":"api/api_runtime/api_runtime.md","mtime":"2017-12-21T08:33:43.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-12-21T10:05:14.942Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url> <loc>http://www.quickhybrid.com/changelog.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/guid/structure/structure.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/guid/guid_start.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/guid/guid_showcase.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/guid/guid_effect.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/baseuse/guid_getstart/guid_getstart.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/baseuse/guid_apiconstraint/guid_apiconstraint.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/baseuse/jsapi/jsapi.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/baseuse/promisesupport/promisesupport.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/baseuse/guid_demodebug/guid_demodebug.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/api/api_global/api_global.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/api/api_auth/api_auth.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/api/api_device/api_device.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/api/api_navigator/api_navigator.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/api/api_page/api_page.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/api/api_runtime/api_runtime.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/api/api_ui/api_ui.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/api/api_util/api_util.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/component/component_outline/component_outline.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/component/component_pay/component_pay.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_preface/quickhybrid_preface.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_framework/quickhybrid_framework.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_native2h5interaction/quickhybrid_native2h5interaction.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_jsbridge/quickhybrid_jsbridge.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_h5ornative/quickhybrid_h5ornative.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_apiclassify/quickhybrid_apiclassify.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_apiplanning/quickhybrid_apiplanning.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_apimultiplatform/quickhybrid_apimultiplatform.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_apicomponents/quickhybrid_apicomponents.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_apijs/quickhybrid_apijs.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_apiandroid/quickhybrid_apiandroid.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/howto/quickhybrid_apiios/quickhybrid_apiios.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/contribute/discuss.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/contribute/relateproject.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/GLOSSARY.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+</urlset>

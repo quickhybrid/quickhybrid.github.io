@@ -1,0 +1,913 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>【quick hybrid】API的分类：短期API、长期API · quickhybrid</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="dailc">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../quickhybrid_apiplanning/quickhybrid_apiplanning.html" />
+    
+    
+    <link rel="prev" href="../quickhybrid_h5ornative/quickhybrid_h5ornative.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"quickhybrid/quickhybrid","types":["star","watch","fork"],"size":"small"};
+    </script>
+
+    
+        <link rel="shortcut icon" href='../../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.quickhybrid.com" target="_blank" class="custom-link">quickhybrid.com</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">整体概要</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../changelog.html">
+            
+                <a href="../../changelog.html">
+            
+                    
+                    更新日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../guid/structure/structure.html">
+            
+                <a href="../../guid/structure/structure.html">
+            
+                    
+                    架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../guid/guid_start.html">
+            
+                <a href="../../guid/guid_start.html">
+            
+                    
+                    快速开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../guid/guid_showcase.html">
+            
+                <a href="../../guid/guid_showcase.html">
+            
+                    
+                    showcase
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../guid/guid_effect.html">
+            
+                <a href="../../guid/guid_effect.html">
+            
+                    
+                    效果展示
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">基本使用</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../baseuse/guid_getstart/guid_getstart.html">
+            
+                <a href="../../baseuse/guid_getstart/guid_getstart.html">
+            
+                    
+                    开始开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../baseuse/guid_apiconstraint/guid_apiconstraint.html">
+            
+                <a href="../../baseuse/guid_apiconstraint/guid_apiconstraint.html">
+            
+                    
+                    API约束
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../baseuse/jsapi/jsapi.html">
+            
+                <a href="../../baseuse/jsapi/jsapi.html">
+            
+                    
+                    JSAPI权限
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../baseuse/promisesupport/promisesupport.html">
+            
+                <a href="../../baseuse/promisesupport/promisesupport.html">
+            
+                    
+                    Promise支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../../baseuse/guid_demodebug/guid_demodebug.html">
+            
+                <a href="../../baseuse/guid_demodebug/guid_demodebug.html">
+            
+                    
+                    Demo与调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">API</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../api/api_global/api_global.html">
+            
+                <a href="../../api/api_global/api_global.html">
+            
+                    
+                    全局调用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../api/api_auth/api_auth.html">
+            
+                <a href="../../api/api_auth/api_auth.html">
+            
+                    
+                    api_auth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../../api/api_device/api_device.html">
+            
+                <a href="../../api/api_device/api_device.html">
+            
+                    
+                    api_device
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../../api/api_navigator/api_navigator.html">
+            
+                <a href="../../api/api_navigator/api_navigator.html">
+            
+                    
+                    api_navigator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../../api/api_page/api_page.html">
+            
+                <a href="../../api/api_page/api_page.html">
+            
+                    
+                    api_page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../../api/api_runtime/api_runtime.html">
+            
+                <a href="../../api/api_runtime/api_runtime.html">
+            
+                    
+                    api_runtime
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../../api/api_ui/api_ui.html">
+            
+                <a href="../../api/api_ui/api_ui.html">
+            
+                    
+                    api_ui
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../../api/api_util/api_util.html">
+            
+                <a href="../../api/api_util/api_util.html">
+            
+                    
+                    api_util
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">组件API</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../component/component_outline/component_outline.html">
+            
+                <a href="../../component/component_outline/component_outline.html">
+            
+                    
+                    如何使用组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../component/component_pay/component_pay.html">
+            
+                <a href="../../component/component_pay/component_pay.html">
+            
+                    
+                    测试的支付组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">原理系列</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../quickhybrid_preface/quickhybrid_preface.html">
+            
+                <a href="../quickhybrid_preface/quickhybrid_preface.html">
+            
+                    
+                    【quickhybrid】如何实现一个跨平台Hybrid框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../quickhybrid_framework/quickhybrid_framework.html">
+            
+                <a href="../quickhybrid_framework/quickhybrid_framework.html">
+            
+                    
+                    【quick hybrid】架构一个Hybrid框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../quickhybrid_native2h5interaction/quickhybrid_native2h5interaction.html">
+            
+                <a href="../quickhybrid_native2h5interaction/quickhybrid_native2h5interaction.html">
+            
+                    
+                    【quick hybrid】H5和Native交互原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../quickhybrid_jsbridge/quickhybrid_jsbridge.html">
+            
+                <a href="../quickhybrid_jsbridge/quickhybrid_jsbridge.html">
+            
+                    
+                    【quick hybrid】JSBridge的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../quickhybrid_h5ornative/quickhybrid_h5ornative.html">
+            
+                <a href="../quickhybrid_h5ornative/quickhybrid_h5ornative.html">
+            
+                    
+                    【quick hybrid】H5和原生的职责划分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.6" data-path="quickhybrid_apiclassify.html">
+            
+                <a href="quickhybrid_apiclassify.html">
+            
+                    
+                    【quick hybrid】API的分类：短期API、长期API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="../quickhybrid_apiplanning/quickhybrid_apiplanning.html">
+            
+                <a href="../quickhybrid_apiplanning/quickhybrid_apiplanning.html">
+            
+                    
+                    【quick hybrid】API规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="../quickhybrid_apimultiplatform/quickhybrid_apimultiplatform.html">
+            
+                <a href="../quickhybrid_apimultiplatform/quickhybrid_apimultiplatform.html">
+            
+                    
+                    【quick hybrid】API多平台支撑的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="../quickhybrid_apicomponents/quickhybrid_apicomponents.html">
+            
+                <a href="../quickhybrid_apicomponents/quickhybrid_apicomponents.html">
+            
+                    
+                    【quick hybrid】组件（自定义）API的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="../quickhybrid_apijs/quickhybrid_apijs.html">
+            
+                <a href="../quickhybrid_apijs/quickhybrid_apijs.html">
+            
+                    
+                    【quick hybrid】JS端的项目实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.11" data-path="../quickhybrid_apiandroid/quickhybrid_apiandroid.html">
+            
+                <a href="../quickhybrid_apiandroid/quickhybrid_apiandroid.html">
+            
+                    
+                    【quick hybrid】Android端的项目实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.12" data-path="../quickhybrid_apiios/quickhybrid_apiios.html">
+            
+                <a href="../quickhybrid_apiios/quickhybrid_apiios.html">
+            
+                    
+                    【quick hybrid】iOS端的项目实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">其它资料</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../contribute/discuss.html">
+            
+                <a href="../../contribute/discuss.html">
+            
+                    
+                    交流讨论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../../contribute/relateproject.html">
+            
+                <a href="../../contribute/relateproject.html">
+            
+                    
+                    相关项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >【quick hybrid】API的分类：短期API、长期API</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x3010;quickhybrid&#x3011;api&#x7684;&#x5206;&#x7C7B;&#xFF1A;&#x77ED;&#x671F;api&#x3001;&#x957F;&#x671F;api"><b></b>&#x3010;quickhybrid&#x3011;API&#x7684;&#x5206;&#x7C7B;&#xFF1A;&#x77ED;&#x671F;API&#x3001;&#x957F;&#x671F;API</a></li><ul><li><span class="title-icon "></span><a href="#&#x524D;&#x8A00;"><b></b>&#x524D;&#x8A00;</a></li><li><span class="title-icon "></span><a href="#&#x5212;&#x5206;&#x7684;&#x51ED;&#x636E;"><b></b>&#x5212;&#x5206;&#x7684;&#x51ED;&#x636E;</a></li><li><span class="title-icon "></span><a href="#&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x6B21;&#x4E24;&#x8005;&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;"><b></b>&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x6B21;&#x4E24;&#x8005;&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;</a></li><ul><li><span class="title-icon "></span><a href="#&#x5728;&#x6846;&#x67B6;&#x5B9A;&#x4E49;&#x5C42;&#x6B21;&#xFF0C;&#x9700;&#x8981;&#x533A;&#x5206;"><b></b>&#x5728;&#x6846;&#x67B6;&#x5B9A;&#x4E49;&#x5C42;&#x6B21;&#xFF0C;&#x9700;&#x8981;&#x533A;&#x5206;</a></li></ul><li><span class="title-icon "></span><a href="#&#x5728;&#x539F;&#x751F;&#x5BB9;&#x5668;&#x5C42;&#x9762;&#x4E24;&#x8005;&#x7684;&#x533A;&#x522B;&#xFF1F;"><b></b>&#x5728;&#x539F;&#x751F;&#x5BB9;&#x5668;&#x5C42;&#x9762;&#x4E24;&#x8005;&#x7684;&#x533A;&#x522B;&#xFF1F;</a></li><ul><li><span class="title-icon "></span><a href="#android&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;"><b></b>Android&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;</a></li><li><span class="title-icon "></span><a href="#ios&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;"><b></b>iOS&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;</a></li></ul><li><span class="title-icon "></span><a href="#&#x7ED3;&#x675F;&#x8BED;"><b></b>&#x7ED3;&#x675F;&#x8BED;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x6839;&#x76EE;&#x5F55;"><b></b>&#x8FD4;&#x56DE;&#x6839;&#x76EE;&#x5F55;</a></li><li><span class="title-icon "></span><a href="#&#x6E90;&#x7801;"><b></b>&#x6E90;&#x7801;</a></li></ul></ul></div><a href="#&#x3010;quickhybrid&#x3011;api&#x7684;&#x5206;&#x7C7B;&#xFF1A;&#x77ED;&#x671F;api&#x3001;&#x957F;&#x671F;api" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x3010;quickhybrid&#x3011;api&#x7684;&#x5206;&#x7C7B;&#xFF1A;&#x77ED;&#x671F;api&#x3001;&#x957F;&#x671F;api"><a name="&#x3010;quickhybrid&#x3011;api&#x7684;&#x5206;&#x7C7B;&#xFF1A;&#x77ED;&#x671F;api&#x3001;&#x957F;&#x671F;api" class="anchor-navigation-ex-anchor" href="#&#x3010;quickhybrid&#x3011;api&#x7684;&#x5206;&#x7C7B;&#xFF1A;&#x77ED;&#x671F;api&#x3001;&#x957F;&#x671F;api"><i class="fa fa-link" aria-hidden="true"></i></a>&#x3010;quickhybrid&#x3011;API&#x7684;&#x5206;&#x7C7B;&#xFF1A;&#x77ED;&#x671F;API&#x3001;&#x957F;&#x671F;API</h1>
+<h2 id="&#x524D;&#x8A00;"><a name="&#x524D;&#x8A00;" class="anchor-navigation-ex-anchor" href="#&#x524D;&#x8A00;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x524D;&#x8A00;</h2>
+<p>&#x4E00;&#x5207;&#x5C31;&#x7EEA;&#xFF0C;&#x5F00;&#x59CB;&#x89C4;&#x5212;API&#xFF0C;&#x8FD9;&#x91CC;&#x5728;&#x89C4;&#x5212;&#x524D;&#x5BF9;API&#x8FDB;&#x884C;&#x4E86;&#x4E00;&#x6B21;&#x5206;&#x7C7B;&#xFF1A;<strong>&#x77ED;&#x671F;API&#x3001;&#x957F;&#x671F;API</strong></p>
+<p>&#x9996;&#x5148;&#x7533;&#x660E;&#x4E0B;&#xFF0C;&#x8FD9;&#x4E2A;&#x662F;&#x5728;&#x5B9E;&#x9645;&#x6846;&#x67B6;&#x6F14;&#x53D8;&#x8FC7;&#x7A0B;&#x4E2D;&#x81EA;&#x521B;&#x7684;&#x4E00;&#x4E2A;&#x6982;&#x5FF5;&#xFF0C;&#x5176;&#x5B83;&#x6DF7;&#x5408;&#x6846;&#x67B6;&#x53EF;&#x80FD;&#x4E5F;&#x4F1A;&#x6709;&#x8FD9;&#x4E2A;&#x6982;&#x5FF5;&#xFF0C;&#x4F46;&#x5E94;&#x8BE5;&#x662F;&#x4F1A;&#x5728;&#x539F;&#x751F;&#x5E95;&#x5C42;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x524D;&#x7AEF;&#x5B9E;&#x73B0;&#x3002;&#x3002;
+&#x800C;&#x8FD9;&#x91CC;&#x7531;&#x4E8E;&#x662F;<code>&#x524D;&#x7AEF;&#x9A71;&#x52A8;</code>&#xFF0C;&#x6240;&#x4EE5;&#x76F8;&#x6BD4;&#x5176;&#x5B83;&#x6DF7;&#x5408;&#x6846;&#x67B6;&#xFF0C;&#x524D;&#x7AEF;&#x591A;&#x4E86;&#x4E00;&#x4E2A;&#x5904;&#x7406;&#x5F15;&#x64CE;&#xFF08;&#x5305;&#x62EC;&#x591A;&#x5E73;&#x53F0;&#x9002;&#x914D;&#xFF0C;API&#x5904;&#x7406;&#x7B49;&#x7B49;&#xFF09;</p>
+<h2 id="&#x5212;&#x5206;&#x7684;&#x51ED;&#x636E;"><a name="&#x5212;&#x5206;&#x7684;&#x51ED;&#x636E;" class="anchor-navigation-ex-anchor" href="#&#x5212;&#x5206;&#x7684;&#x51ED;&#x636E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5212;&#x5206;&#x7684;&#x51ED;&#x636E;</h2>
+<p><strong>&#x6839;&#x636E;API&#x56DE;&#x8C03;&#x7684;&#x5B9E;&#x9645;&#x6267;&#x884C;&#x6B21;&#x6570;&#x6765;&#x5212;&#x5206;&#xFF0C;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x81EA;&#x52A8;&#x56DE;&#x6536;&#x7684;&#x662F;&#x77ED;&#x671F;API&#xFF0C;&#x53EF;&#x4EE5;&#x6267;&#x884C;&#x591A;&#x6B21;&#x7684;&#x662F;&#x957F;&#x671F;API</strong></p>
+<p>&#x8B6C;&#x5982;&#xFF0C;&#x77ED;&#x671F;&#x56DE;&#x8C03;&#x5305;&#x62EC;&#xFF1A;</p>
+<pre><code class="lang-js">ui
+    alert,toast&#x7B49;&#x7B49;
+page
+    open,reload&#x7B49;&#x7B49;
+...
+</code></pre>
+<p>&#x8B6C;&#x5982;&#xFF0C;&#x957F;&#x671F;&#x56DE;&#x8C03;&#x5305;&#x62EC;&#xFF1A;</p>
+<pre><code class="lang-js">navigator
+    hookBackBtn,setRightBtn
+event
+    registerEvent:<span class="hljs-string">&apos;resume&apos;</span>,<span class="hljs-string">&apos;netChange&apos;</span>&#x7B49;&#x7B49;
+...
+</code></pre>
+<p>&#x800C;&#x4E14;&#x89C4;&#x5B9A;&#xFF0C;&#x77ED;&#x671F;API&#x6267;&#x884C;&#x5B8C;&#x4E00;&#x6B21;&#x540E;&#x5FC5;&#x987B;&#x81EA;&#x52A8;&#x5220;&#x9664;&#x5F15;&#x7528;&#xFF0C;&#x907F;&#x514D;&#x65E0;&#x6CD5;&#x53CA;&#x65F6;&#x56DE;&#x6536;&#xFF0C;&#x957F;&#x671F;API&#x5219;&#x4E0D;&#x4F1A;&#x81EA;&#x52A8;&#x56DE;&#x6536;&#xFF0C;&#x4F1A;&#x4E00;&#x76F4;&#x76D1;&#x542C;&#x76F4;&#x5230;&#x4E3B;&#x52A8;&#x53D6;&#x6D88;&#x6216;&#x9875;&#x9762;&#x5173;&#x95ED;</p>
+<p>&#x5982;&#x4E0B;&#x56FE;</p>
+<p><img src="images/quickhybrid_apiclassify.png" alt=""></p>
+<h2 id="&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x6B21;&#x4E24;&#x8005;&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;"><a name="&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x6B21;&#x4E24;&#x8005;&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x6B21;&#x4E24;&#x8005;&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x6B21;&#x4E24;&#x8005;&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;</h2>
+<p>API&#x8BBE;&#x8BA1;&#x7684;&#x4E00;&#x4E2A;&#x539F;&#x5219;&#x5C31;&#x662F;&#x5C3D;&#x91CF;&#x7B80;&#x5355;&#x4F18;&#x96C5;&#xFF0C;&#x6240;&#x4EE5;<strong>&#x5728;H5&#x7684;&#x8C03;&#x7528;&#x5C42;&#x6B21;&#x6765;&#x770B;&#xFF0C;&#x8FD9;&#x4E24;&#x79CD;&#x4E0D;&#x4F1A;&#x6709;&#x4EFB;&#x4F55;&#x533A;&#x522B;</strong>&#xFF0C;&#x6BD4;&#x5982;</p>
+<pre><code class="lang-js">quick.navigator.setTitle({
+    title: <span class="hljs-string">&apos;&#x6D4B;&#x8BD5;&#x6807;&#x9898;&apos;</span>,
+    subTitle: <span class="hljs-string">&apos;&#x5B50;&#x6807;&#x9898;&apos;</span>,
+    success: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{},
+    error: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>) </span>{}
+});
+
+quick.navigator.setRightBtn({
+    isShow: <span class="hljs-number">1</span>,
+    text: <span class="hljs-string">&apos;&#x6309;&#x94AE;&#x53F3;1&apos;</span>,
+    which: <span class="hljs-number">0</span>,
+    success: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{
+        <span class="hljs-comment">/**
+         * &#x6309;&#x94AE;&#x70B9;&#x51FB;&#x540E;&#x56DE;&#x8C03;
+         */</span>
+    },
+    error: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{}
+});
+</code></pre>
+<p>&#x8FD9;&#x4E24;&#x4E2A;API&#x4ECE;&#x5B9A;&#x4E49;&#x4E0A;&#x4E00;&#x4E2A;&#x662F;&#x957F;&#x671F;&#x56DE;&#x8C03;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;&#x77ED;&#x671F;&#x56DE;&#x8C03;&#xFF0C;&#x4F46;&#x662F;&#x5728;&#x8C03;&#x7528;&#x8005;&#x770B;&#x6765;&#xFF0C;&#x5199;&#x6CD5;&#x4E0D;&#x4F1A;&#x6709;&#x533A;&#x522B;&#xFF0C;&#x4ECD;&#x7136;&#x662F;&#x540C;&#x4E00;&#x79CD;&#x98CE;&#x683C;&#x7684;&#xFF0C;&#x4E5F;&#x4E0D;&#x4F1A;&#x8981;&#x6C42;&#x4F20;&#x9012;&#x989D;&#x5916;&#x53C2;&#x6570;</p>
+<h3 id="&#x5728;&#x6846;&#x67B6;&#x5B9A;&#x4E49;&#x5C42;&#x6B21;&#xFF0C;&#x9700;&#x8981;&#x533A;&#x5206;"><a name="&#x5728;&#x6846;&#x67B6;&#x5B9A;&#x4E49;&#x5C42;&#x6B21;&#xFF0C;&#x9700;&#x8981;&#x533A;&#x5206;" class="anchor-navigation-ex-anchor" href="#&#x5728;&#x6846;&#x67B6;&#x5B9A;&#x4E49;&#x5C42;&#x6B21;&#xFF0C;&#x9700;&#x8981;&#x533A;&#x5206;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5728;&#x6846;&#x67B6;&#x5B9A;&#x4E49;&#x5C42;&#x6B21;&#xFF0C;&#x9700;&#x8981;&#x533A;&#x5206;</h3>
+<p>&#x867D;&#x7136;&#x5728;&#x8C03;&#x7528;&#x5C42;&#x6B21;&#x6765;&#x770B;&#xFF0C;&#x5E76;&#x65E0;&#x533A;&#x522B;&#xFF0C;&#x4F46;&#x662F;&#x5728;&#x6846;&#x67B6;&#x5185;&#x90E8;&#xFF0C;&#x8FD8;&#x662F;&#x6709;&#x6240;&#x4E0D;&#x540C;&#x7684;</p>
+<p>&#x8B6C;&#x5982;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// &#x5728;&#x539F;&#x751F;&#x8C03;&#x7528;&#x5B8C;&#x5BF9;&#x5E94;&#x7684;&#x65B9;&#x6CD5;&#x540E;,&#x4F1A;&#x6267;&#x884C;&#x5BF9;&#x5E94;&#x7684;&#x56DE;&#x8C03;&#x51FD;&#x6570;id&#xFF0C;&#x5E76;&#x5220;&#x9664;</span>
+<span class="hljs-keyword">const</span> responseCallbacks = {};
+<span class="hljs-comment">// &#x957F;&#x671F;&#x5B58;&#x5728;&#x7684;&#x56DE;&#x8C03;&#xFF0C;&#x8C03;&#x7528;&#x540E;&#x4E0D;&#x4F1A;&#x5220;&#x9664;</span>
+<span class="hljs-keyword">const</span> responseCallbacksLongTerm = {};
+</code></pre>
+<p>&#x957F;&#x671F;API&#x5728;&#x8C03;&#x7528;&#x540E;&#xFF0C;&#x56DE;&#x8C03;&#x4F1A;&#x6DFB;&#x52A0;&#x5230;<code>responseCallbacksLongTerm</code>&#x6C60;&#x4E2D;&#xFF0C;&#x77ED;&#x671F;AP&#x4F1A;&#x6DFB;&#x52A0;&#x5230;<code>responseCallbacks</code>&#x4E2D;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// &#x8FD9;&#x91CC;&#x89C4;&#x5B9A;,&#x539F;&#x751F;&#x6267;&#x884C;&#x65B9;&#x6CD5;&#x5B8C;&#x6BD5;&#x540E;&#x51C6;&#x5907;&#x901A;&#x77E5;h5&#x6267;&#x884C;&#x56DE;&#x8C03;&#x65F6;,&#x56DE;&#x8C03;&#x51FD;&#x6570;id&#x662F;responseId</span>
+responseCallback = responseCallbacks[responseId];
+<span class="hljs-comment">// &#x9ED8;&#x8BA4;&#x5148;&#x77ED;&#x671F;&#x518D;&#x957F;&#x671F;</span>
+responseCallback = responseCallback || responseCallbacksLongTerm[responseId];
+<span class="hljs-comment">// &#x6267;&#x884C;&#x672C;&#x5730;&#x7684;&#x56DE;&#x8C03;&#x51FD;&#x6570;</span>
+responseCallback &amp;&amp; responseCallback(responseData);
+<span class="hljs-keyword">delete</span> responseCallbacks[responseId];
+</code></pre>
+<p>&#x5728;&#x56DE;&#x8C03;&#x6267;&#x884C;&#x9636;&#x6BB5;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x77ED;&#x671F;&#x56DE;&#x8C03;&#xFF0C;&#x4F1A;&#x81EA;&#x52A8;&#x5220;&#x9664;&#x5F15;&#x7528;&#xFF0C;&#x65B9;&#x4FBF;&#x5783;&#x573E;&#x5904;&#x7406;&#x5668;&#x81EA;&#x52A8;&#x56DE;&#x6536;&#xFF08;&#x91CC;&#x9762;&#x4F1A;&#x4FDD;&#x8BC1;&#x77ED;&#x671F;id&#x548C;&#x957F;&#x671F;id&#x4E0D;&#x91CD;&#x590D;&#xFF09;</p>
+<h2 id="&#x5728;&#x539F;&#x751F;&#x5BB9;&#x5668;&#x5C42;&#x9762;&#x4E24;&#x8005;&#x7684;&#x533A;&#x522B;&#xFF1F;"><a name="&#x5728;&#x539F;&#x751F;&#x5BB9;&#x5668;&#x5C42;&#x9762;&#x4E24;&#x8005;&#x7684;&#x533A;&#x522B;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x5728;&#x539F;&#x751F;&#x5BB9;&#x5668;&#x5C42;&#x9762;&#x4E24;&#x8005;&#x7684;&#x533A;&#x522B;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5728;&#x539F;&#x751F;&#x5BB9;&#x5668;&#x5C42;&#x9762;&#x4E24;&#x8005;&#x7684;&#x533A;&#x522B;&#xFF1F;</h2>
+<p>&#x5728;H5&#x6846;&#x67B6;&#x5C42;&#x6B21;&#xFF0C;&#x957F;&#x671F;API&#x548C;&#x77ED;&#x671F;API&#x7684;&#x5DEE;&#x8DDD;&#x4E5F;&#x4E0D;&#x662F;&#x5F88;&#x5927;&#xFF0C;&#x4F46;&#x662F;&#x5728;&#x539F;&#x751F;&#x5C42;&#x9762;&#xFF0C;&#x5DEE;&#x8DDD;&#x660E;&#x663E;&#x53D8;&#x5927;&#xFF08;&#x8FD9;&#x4E5F;&#x662F;&#x4E3A;&#x4EC0;&#x4E48;&#x4F1A;&#x628A;&#x8FD9;&#x4E24;&#x79CD;&#x5355;&#x72EC;&#x5212;&#x5206;&#x6210;&#x4E24;&#x4E2A;&#x6982;&#x5FF5;&#xFF09;</p>
+<p>&#x4E3A;&#x4E86;&#x5C3D;&#x53EF;&#x80FD;&#x7684;&#x51CF;&#x5C11;&#x5197;&#x4F59;&#x4FE1;&#x606F;&#xFF0C;&#x6211;&#x4EEC;&#x4EC5;&#x4EE5;<code>navigator.setRightBtn</code>&#x4E0E;<code>setTitle</code>API&#x4E3A;&#x4F8B;&#xFF0C;&#x5B83;&#x4EEC;&#x7684;&#x524D;&#x7AEF;&#x8C03;&#x7528;&#x6211;&#x4EEC;&#x5728;&#x524D;&#x9762;&#x5DF2;&#x7ECF;&#x770B;&#x5230;&#x4E86;&#xFF0C;&#x90A3;&#x4E48;&#x5B83;&#x5728;&#x539F;&#x751F;&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5B9E;&#x73B0;&#x5982;&#x4E0B;</p>
+<p>&#x539F;&#x751F;&#x4E2D;&#x957F;&#x671F;API&#x662F;&#x4F1A;&#x5148;&#x884C;&#x76D1;&#x542C;&#x7684;&#xFF08;&#x8003;&#x8651;&#x8FC7;&#x8C03;&#x7528;&#x540E;&#x76D1;&#x542C;&#x548C;&#x8C03;&#x7528;&#x524D;&#x76D1;&#x542C;&#x4E24;&#x79CD;&#x6A21;&#x5F0F;&#xFF0C;&#x6700;&#x7EC8;&#x91C7;&#x53D6;&#x4E86;&#x8C03;&#x7528;&#x524D;&#x76D1;&#x542C;-&#x7ED3;&#x5408;&#x4E86;&#x539F;&#x751F;&#x539F;&#x6709;&#x4EE3;&#x7801;&#x8003;&#x8651;&#xFF09;</p>
+<p>&#x4EE5;&#x4E0B;&#x7684;&#x4F2A;&#x4EE3;&#x7801;&#x57FA;&#x4E8E;&#x524D;&#x9762;&#x7684;<code>JSBridge</code>&#x4ECB;&#x7ECD;&#x6587;&#x7AE0;&#xFF0C;&#x8FD9;&#x91CC;&#x5047;&#x8BBE;&#x5DF2;&#x7ECF;&#x4E86;&#x89E3;&#x4E86;&#xFF0C;&#x4E0D;&#x518D;&#x8D58;&#x8FF0;</p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x8FD9;&#x91CC;&#x7684;setTitle&#x4E3A;&#x77ED;&#x671F;API&#xFF0C;&#x4F46;&#x662F;&#x5982;&#x679C;&#x60F3;&#x8981;&#x7ED9;&#x5B83;&#x52A0;&#x4E0A;&#x70B9;&#x51FB;&#x56DE;&#x8C03;&#x7684;&#x8BDD;&#x662F;&#x9700;&#x8981;&#x53D8;&#x6210;&#x957F;&#x671F;API&#x7684;&#xFF0C;&#x6211;&#x4EEC;&#x4EC5;&#x4EE5;&#x77ED;&#x671F;&#x7684;&#x72B6;&#x6001;&#x4E3A;&#x4F8B;</strong></p>
+<h3 id="android&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;"><a name="android&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;" class="anchor-navigation-ex-anchor" href="#android&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;"><i class="fa fa-link" aria-hidden="true"></i></a>Android&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;</h3>
+<pre><code class="lang-js">public <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">NavigatorApi</span> <span class="hljs-title">implements</span> <span class="hljs-title">IBridgeImpl</span> </span>{
+    public <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> setTitle(..., JSONObject params, Callback callback) {
+        <span class="hljs-comment">// &#x83B7;&#x53D6;&#x4E86;&#x53C2;&#x6570;&#x540E;&#x76F4;&#x63A5;&#x6539;&#x53D8;&#x4E86;&#x5BFC;&#x822A;&#x680F;&#x7684;&#x6807;&#x9898;</span>
+        ...
+        <span class="hljs-comment">// &#x7136;&#x540E;&#x5F00;&#x59CB;&#x56DE;&#x8C03;</span>
+        callback.apply(...);
+    }
+
+    public <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> setRightBtn(..., JSONObject params, Callback callback) {
+        <span class="hljs-comment">// &#x89E3;&#x6790;&#x53C2;&#x6570;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x56DE;&#x8C03;&#x4FE1;&#x606F;&#x548C;&#x76D1;&#x542C;&#x51FD;&#x6570;&#x6DFB;&#x52A0;&#x5230;webview&#x63A7;&#x5236;&#x5668;&#x4E2D;&#xFF0C;&#x8FD9;&#x4E2A;&#x63A7;&#x5236;&#x5668;&#x9ED8;&#x8BA4;&#x76D1;&#x542C;&#x4E86;&#x5F88;&#x591A;&#x4E8B;&#x4EF6;&#x3002;&#x4F46;&#x53EA;&#x6709;&#x8FD9;&#x4E9B;&#x56DE;&#x8C03;&#x4FE1;&#x606F;&#x6DFB;&#x52A0;&#x540E;&#x624D;&#x4F1A;&#x6267;&#x884C;</span>
+        <span class="hljs-comment">// &#x91CC;&#x9762;&#x4E5F;&#x5305;&#x62EC;&#x4E86;&#x66F4;&#x6539;&#x6309;&#x94AE;&#x7684;&#x6587;&#x5B57;&#x6216;&#x56FE;&#x6807;</span>
+        ...
+        WebloaderControl.addPort(callback.port, <span class="hljs-string">&apos;xxx&#x53F3;&#x4FA7;&#x6309;&#x94AE;&#x76D1;&#x542C;&#x4E8B;&#x4EF6;&apos;</span>);
+    }
+}
+</code></pre>
+<p><code>WebloaderControl</code>&#x4E2D;&#x7684;&#x4F5C;&#x7528;&#x662F;&#x76D1;&#x542C;&#x5404;&#x79CD;&#x4E8B;&#x4EF6;&#xFF08;&#x5982;&#x5229;&#x7528;&#x4E00;&#x4E9B;&#x5929;&#x7136;&#x7684;<code>resume</code>&#x4E8B;&#x4EF6;&#x7B49;&#xFF09;&#xFF0C;&#x7136;&#x540E;&#x5F53;&#x5BF9;&#x5E94;&#x4E8B;&#x4EF6;&#x89E6;&#x53D1;&#x65F6;&#xFF0C;&#x53EA;&#x6709;&#x56DE;&#x8C03;&#x6C60;&#x4E2D;&#xFF08;<code>addPort</code>&#x6DFB;&#x52A0;&#x8FDB;&#x7684;&#xFF09;&#x5B58;&#x5728;&#xFF0C;&#x624D;&#x4F1A;&#x6267;&#x884C;</p>
+<pre><code class="lang-js">&#x5176;&#x4E2D;<span class="hljs-string">&apos;xxx&#x53F3;&#x4FA7;&#x6309;&#x94AE;&#x76D1;&#x542C;&#x4E8B;&#x4EF6;&apos;</span>&#x662F;&#x5728;webview&#x81EA;&#x884C;&#x76D1;&#x542C;&#x7684;&#xFF0C;&#x8FD9;&#x91CC;&#x5C31;&#x4E0D;&#x518D;&#x8D58;&#x8FF0;&#x4E86;
+
+&#x53EA;&#x9700;&#x76F4;&#x5230;&#xFF0C;WebloaderControl.addPort&#xFF0C;&#x53F3;&#x4FA7;&#x76D1;&#x542C;&#x4E8B;&#x4EF6;&#x4E2D;&#x624D;&#x4F1A;&#x6267;&#x884C;&#x6DFB;&#x52A0;&#x8FDB;&#x53BB;&#x7684;&#x56DE;&#x8C03;&#xFF0C;&#x5426;&#x5219;&#x662F;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x64CD;&#x4F5C;&#x7684;
+</code></pre>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x77ED;&#x671F;API&#x548C;&#x957F;&#x671F;API&#x7684;&#x5F62;&#x6001;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;&#x8C03;&#x7528;&#x540E;&#x7ACB;&#x5373;&#x6267;&#x884C;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;&#x5DF2;&#x7ECF;&#x76D1;&#x542C;&#x4E86;&#xFF0C;&#x5C31;&#x7B49;&#x7740;&#x4F60;&#x7684;&#x56DE;&#x8C03;</p>
+<h3 id="ios&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;"><a name="ios&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;" class="anchor-navigation-ex-anchor" href="#ios&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;"><i class="fa fa-link" aria-hidden="true"></i></a>iOS&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5BF9;&#x6BD4;</h3>
+<pre><code class="lang-js">@implementation NavigatorApi
+- (<span class="hljs-keyword">void</span>)registerHandlers {
+    [self registerHandlerName:@<span class="hljs-string">&quot;setTitle&quot;</span> handler:^(id data, WVJBResponseCallback responseCallback) {
+        <span class="hljs-comment">// &#x540C;&#x6837;&#xFF0C;&#x5728;&#x6267;&#x884C;&#x5B8C;&#x529F;&#x80FD;&#x540E;&#x8FDB;&#x884C;&#x56DE;&#x8C03;</span>
+        ...
+        responseCallback(...);
+    }
+
+    [self registerHandlerName:@<span class="hljs-string">&quot;setRightBtn&quot;</span> handler:^(id data, WVJBResponseCallback responseCallback) {
+        <span class="hljs-comment">// &#x91CC;&#x9762;&#x4E5F;&#x5305;&#x62EC;&#x4E86;&#x66F4;&#x6539;&#x6309;&#x94AE;&#x7684;&#x6587;&#x5B57;&#x6216;&#x56FE;&#x6807;&#x7B49;&#x4E00;&#x4E9B;&#x6B65;&#x9AA4;</span>
+        ...
+        <span class="hljs-comment">// &#x540C;&#x6837;&#xFF0C;&#x8FD9;&#x91CC;&#x662F;&#x5C06;&#x56DE;&#x8C03;&#x6DFB;&#x52A0;&#x5230;&#x7F13;&#x5B58;&#x6C60;&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x76D1;&#x542C;&#x5230;&#x5BF9;&#x4E8E;&#x6309;&#x94AE;&#x70B9;&#x51FB;&#x65F6;&#x5C31;&#x4F1A;&#x6267;&#x884C;&#x56DE;&#x8C03;</span>
+        [self cacheCallback:responseCallback handlerName:@<span class="hljs-string">&quot;setRightBtn&quot;</span>];
+    }
+}
+</code></pre>
+<p>iOS&#x548C;Android&#x4E2D;&#x76F8;&#x6BD4;&#xFF0C;&#x867D;&#x7136;&#x5B9E;&#x73B0;&#x4EE3;&#x7801;&#x4E0D;&#x4E00;&#x6837;&#xFF0C;&#x4F46;&#x662F;&#x903B;&#x8F91;&#x662F;&#x4E00;&#x81F4;&#x7684;&#xFF0C;&#x540C;&#x6837;&#x5728;&#x76D1;&#x542C;&#x540E;&#x624D;&#x4F1A;&#x6267;&#x884C;&#x5BF9;&#x5E94;&#x56DE;&#x8C03;</p>
+<h2 id="&#x7ED3;&#x675F;&#x8BED;"><a name="&#x7ED3;&#x675F;&#x8BED;" class="anchor-navigation-ex-anchor" href="#&#x7ED3;&#x675F;&#x8BED;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7ED3;&#x675F;&#x8BED;</h2>
+<p>&#x77ED;&#x671F;&#x548C;&#x957F;&#x671F;&#x6982;&#x5FF5;&#x53EA;&#x662F;&#x7528;&#x6765;&#x66F4;&#x597D;&#x7684;&#x5212;&#x5206;&#x548C;&#x7BA1;&#x7406;API&#xFF0C;&#x6709;&#x4E86;&#x8FD9;&#x4E2A;&#x6982;&#x5FF5;&#x540E;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x5C31;&#x53EF;&#x4EE5;&#x5F00;&#x59CB;&#x5BF9;API&#x8FDB;&#x884C;&#x7EDF;&#x4E00;&#x89C4;&#x5212;&#x4E86;</p>
+<h2 id="&#x8FD4;&#x56DE;&#x6839;&#x76EE;&#x5F55;"><a name="&#x8FD4;&#x56DE;&#x6839;&#x76EE;&#x5F55;" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x6839;&#x76EE;&#x5F55;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8FD4;&#x56DE;&#x6839;&#x76EE;&#x5F55;</h2>
+<ul>
+<li><a href="../quickhybrid_preface/quickhybrid_preface.html">&#x3010;quickhybrid&#x3011;&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;Hybrid&#x6846;&#x67B6;</a></li>
+</ul>
+<h2 id="&#x6E90;&#x7801;"><a name="&#x6E90;&#x7801;" class="anchor-navigation-ex-anchor" href="#&#x6E90;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6E90;&#x7801;</h2>
+<p><code>github</code>&#x4E0A;&#x8FD9;&#x4E2A;&#x6846;&#x67B6;&#x7684;&#x5B9E;&#x73B0;</p>
+<p><a href="https://github.com/quickhybrid/quickhybrid" target="_blank">quickhybrid/quickhybrid</a></p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; dailc 2017 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2017-12-21 15:30:13
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../quickhybrid_h5ornative/quickhybrid_h5ornative.html" class="navigation navigation-prev " aria-label="Previous page: 【quick hybrid】H5和原生的职责划分">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../quickhybrid_apiplanning/quickhybrid_apiplanning.html" class="navigation navigation-next " aria-label="Next page: 【quick hybrid】API规划">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"【quick hybrid】API的分类：短期API、长期API","level":"5.6","depth":1,"next":{"title":"【quick hybrid】API规划","level":"5.7","depth":1,"path":"howto/quickhybrid_apiplanning/quickhybrid_apiplanning.md","ref":"howto/quickhybrid_apiplanning/quickhybrid_apiplanning.md","articles":[]},"previous":{"title":"【quick hybrid】H5和原生的职责划分","level":"5.5","depth":1,"path":"howto/quickhybrid_h5ornative/quickhybrid_h5ornative.md","ref":"howto/quickhybrid_h5ornative/quickhybrid_h5ornative.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-livereload","search-plus@^0.0.11","tbfed-pagefooter@^0.0.1","expandable-chapters@^0.2.0","anchor-navigation-ex@^1.0.4","ace@^0.3.2","sectionx@^3.1.0","splitter@^0.0.8","sitemap-general@^0.1.1","favicon@^0.0.2","todo@^0.1.3","3-ba@^0.9.0","github-buttons@^2.1.0"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © dailc 2017","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"ace":{},"todo":{},"splitter":{},"sitemap-general":{"prefix":"http://www.quickhybrid.com"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{"tag":"b"},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":false},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"github-buttons":{"repo":"quickhybrid/quickhybrid","types":["star","watch","fork"],"size":"small"},"3-ba":{"configuration":"auto","token":"e2a59eb4f9c114693bf024085d12fe22"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":true,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"dailc","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"quickhybrid","language":"zh-hans","links":{"sidebar":{"quickhybrid.com":"http://www.quickhybrid.com"}},"gitbook":"3.2.2","description":"quickhybrid - 快速混合开发框架"},"file":{"path":"howto/quickhybrid_apiclassify/quickhybrid_apiclassify.md","mtime":"2017-12-21T07:30:13.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-12-21T10:05:14.942Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
