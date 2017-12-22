@@ -2,12 +2,11 @@
 
 ## 多平台支撑架构图
 
-![](images/structure.png)
-
+![](images/quickhybrid_multiplatform.png)
 
 ## quick容器架构图
 
-![](images/structure2.png)
+![](images/quickhybrid_apiimpl.png)
 
 ## 多平台支撑说明
 
