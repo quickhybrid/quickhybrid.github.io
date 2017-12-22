@@ -37,7 +37,7 @@ quickhybrid
     |   |- ...
 ```
 
-![](images/project_structure.png)
+![](images/project_structure_js.png)
 
 ## 代码架构
 

@@ -48,7 +48,7 @@ quickhybrid-android
     |   |- view
 ```
 
-![](images/project_structure.png)
+![](images/project_structure_android.png)
 
 ## 代码架构
 
