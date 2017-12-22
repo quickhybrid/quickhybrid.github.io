@@ -10,9 +10,9 @@
 
 - [快速开始](guid/guid_start.md)
 
-- [showcase](guid/guid_showcase.md)
-
 - [效果展示](guid/guid_effect.md)
+
+- [Demo与调试](baseuse/guid_demodebug/guid_demodebug.md)
 
 ## 基本使用
 
@@ -23,8 +23,6 @@
 - [JSAPI权限](baseuse/jsapi/jsapi.md)
 
 - [Promise支持](baseuse/promisesupport/promisesupport.md)
-
-- [Demo与调试](baseuse/guid_demodebug/guid_demodebug.md)
 
 ## API
 

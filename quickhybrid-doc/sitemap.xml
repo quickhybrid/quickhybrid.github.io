@@ -4,13 +4,12 @@
 <url> <loc>http://www.quickhybrid.com/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/guid/structure/structure.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/guid/guid_start.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://www.quickhybrid.com/guid/guid_showcase.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/guid/guid_effect.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://www.quickhybrid.com/baseuse/guid_demodebug/guid_demodebug.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/baseuse/guid_getstart/guid_getstart.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/baseuse/guid_apiconstraint/guid_apiconstraint.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/baseuse/jsapi/jsapi.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/baseuse/promisesupport/promisesupport.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://www.quickhybrid.com/baseuse/guid_demodebug/guid_demodebug.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/api/api_global/api_global.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/api/api_auth/api_auth.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://www.quickhybrid.com/api/api_device/api_device.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
