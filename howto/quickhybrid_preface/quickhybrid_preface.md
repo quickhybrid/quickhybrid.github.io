@@ -2,29 +2,29 @@
 
 ## 章节目录
 
-- [【quickhybrid】如何实现一个跨平台Hybrid框架](../quickhybrid_preface/quickhybrid_preface.md)
+- [【quickhybrid】如何实现一个跨平台Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/12)
 
-- [【quick hybrid】架构一个Hybrid框架](../quickhybrid_framework/quickhybrid_framework.md)
+- [【quick hybrid】架构一个Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/11)
 
-- [【quick hybrid】H5和Native交互原理](../quickhybrid_native2h5interaction/quickhybrid_native2h5interaction.md)
+- [【quick hybrid】H5和Native交互原理](https://github.com/quickhybrid/quickhybrid/issues/10)
 
-- [【quick hybrid】JSBridge的实现](../quickhybrid_jsbridge/quickhybrid_jsbridge.md)
+- [【quick hybrid】JSBridge的实现](https://github.com/quickhybrid/quickhybrid/issues/9)
 
-- [【quick hybrid】H5和原生的职责划分](../quickhybrid_h5ornative/quickhybrid_h5ornative.md)
+- [【quick hybrid】H5和原生的职责划分](https://github.com/quickhybrid/quickhybrid/issues/8)
 
-- [【quick hybrid】API的分类：短期API、长期API](../quickhybrid_apiclassify/quickhybrid_apiclassify.md)
+- [【quick hybrid】API的分类：短期API、长期API](https://github.com/quickhybrid/quickhybrid/issues/7)
 
-- [【quick hybrid】API规划](../quickhybrid_apiplanning/quickhybrid_apiplanning.md)
+- [【quick hybrid】API规划](https://github.com/quickhybrid/quickhybrid/issues/6)
 
-- [【quick hybrid】API多平台支撑的实现](../quickhybrid_apimultiplatform/quickhybrid_apimultiplatform.md)
+- [【quick hybrid】API多平台支撑的实现](https://github.com/quickhybrid/quickhybrid/issues/5)
 
-- [【quick hybrid】组件（自定义）API的实现](../quickhybrid_apicomponents/quickhybrid_apicomponents.md)
+- [【quick hybrid】组件（自定义）API的实现](https://github.com/quickhybrid/quickhybrid/issues/4)
 
-- [【quick hybrid】JS端的项目实现](../quickhybrid_apijs/quickhybrid_apijs.md)
+- [【quick hybrid】JS端的项目实现](https://github.com/quickhybrid/quickhybrid/issues/3)
 
-- [【quick hybrid】Android端的项目实现](../quickhybrid_apiandroid/quickhybrid_apiandroid.md)
+- [【quick hybrid】Android端的项目实现](https://github.com/quickhybrid/quickhybrid/issues/2)
 
-- [【quick hybrid】iOS端的项目实现](../quickhybrid_apiios/quickhybrid_apiios.md)
+- [【quick hybrid】iOS端的项目实现](https://github.com/quickhybrid/quickhybrid/issues/1)
 
 
 ## 一些感慨

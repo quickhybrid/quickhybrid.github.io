@@ -57,7 +57,7 @@ H5 -> 触发一个url（每一个功能代表的url都不同）-> Native端捕�
 
 如下图：
 
-![](images/JSBridge_baseprinciple.png)
+![](https://quickhybrid.github.io/staticresource/images/JSBridge_baseprinciple.png)
 
 __相比于其它方案的优点：__
 
@@ -237,7 +237,7 @@ webview.stringByEvaluatingJavaScriptFromString("方法名(参数)")
 
 ## 返回根目录
 
-- [【quickhybrid】如何实现一个Hybrid框架](../quickhybrid_preface/quickhybrid_preface.md)
+- [【quickhybrid】如何实现一个Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/12)
 
 ## 源码
 

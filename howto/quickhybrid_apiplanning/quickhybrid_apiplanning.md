@@ -267,7 +267,7 @@ __PC端调试API__
 
 可以先预览下效果
 
-![](images/room.png)
+![](https://quickhybrid.github.io/staticresource/images/room.png)
 
 __其它__
 
@@ -275,7 +275,7 @@ __其它__
 
 ## 返回根目录
 
-- [【quickhybrid】如何实现一个Hybrid框架](../quickhybrid_preface/quickhybrid_preface.md)
+- [【quickhybrid】如何实现一个Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/12)
 
 ## 源码
 

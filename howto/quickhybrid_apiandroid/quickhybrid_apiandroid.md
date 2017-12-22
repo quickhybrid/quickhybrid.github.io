@@ -48,7 +48,7 @@ quickhybrid-android
     |   |- view
 ```
 
-![](images/project_structure_android.png)
+![](https://quickhybrid.github.io/staticresource/images/project_structure_android.png)
 
 ## 代码架构
 
@@ -380,7 +380,7 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 
 ## 返回根目录
 
-- [【quickhybrid】如何实现一个Hybrid框架](../quickhybrid_preface/quickhybrid_preface.md)
+- [【quickhybrid】如何实现一个Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/12)
 
 ## 源码
 

@@ -39,7 +39,7 @@ __减少工作量（一套代码，多个平台），以及快速的更新迭代
 
 整体页面布局如下：
 
-![](images/layout_navbar.png)
+![](https://quickhybrid.github.io/staticresource/images/layout_navbar.png)
 
 而H5端可以通过原生提供的API来操控导航栏，以下举例为quick中规划的API:
 
@@ -72,7 +72,7 @@ quick.navigator.setRightBtn({
 
 实际开发中Native导航栏组件+webview也就满足绝大部分的页面需求了，但是还有一些特殊页面是这种实现达不到的，譬如多Tab页面
 
-![](images/layout_navtabbar.png)
+![](https://quickhybrid.github.io/staticresource/images/layout_navtabbar.png)
 
 上述这种内含多tab的页面，每一个tab里都是单独的页面，而且可以通过滑动等手势来切换，甚至tab还会有一些渐变动画，导航栏也配合改变等（常见于APP首页）
 
@@ -98,14 +98,14 @@ quick.page.openLocal({
 对于一些重要的业务页面，如登陆，注册，支付等，处于安全性以及交互性的考虑（就是一个APP的门面），会采用完全由Native实现
 （当然了，一般这些页面的变动频率也不大）
 
-![](images/layout_login.png)
+![](https://quickhybrid.github.io/staticresource/images/layout_login.png)
 
 ### 一些默认提示页面采用原生实现
 
 webview加载网页时，一般情况原生都是会对加载情况进行监听的，比如是否网络异常。服务器响应异常，页面加载崩溃等，
 为了防止APP假死，原生会提高一些默认提示页面
 
-![](images/layout_specialtips1.png)
+![](https://quickhybrid.github.io/staticresource/images/layout_specialtips1.png)
 
 上述只是一个原型示例，实际上，很多情况都可以由原生提供统一提示页面，
 如404，页面崩溃，网络错误等
@@ -116,7 +116,7 @@ webview加载网页时，一般情况原生都是会对加载情况进行监听�
 
 譬如以某图像处理软件某个界面截图为例
 
-![](images/layout_complex.jpg)
+![](https://quickhybrid.github.io/staticresource/images/layout_complex.jpg)
 
 这种页面涉及到了明显不太适合H5实现的图像处理，因此原生才是更佳的选择（当然了，实际上H5的canvas是由图像处理能力的）
 
@@ -151,7 +151,7 @@ quick.ui.alert({
 });
 ```
 
-![](images/layout_ui_alert.png)
+![](https://quickhybrid.github.io/staticresource/images/layout_ui_alert.png)
 
 ## 页面切换的转场由原生实现
 
@@ -182,7 +182,7 @@ quick.page.open({
 页面A -> 页面B -> 页面C
 ```
 
-![](images/layout_multiwebview.png)
+![](https://quickhybrid.github.io/staticresource/images/layout_multiwebview.png)
 
 可以看到，如果是直接调整，页面A和B是不存存在的，而是会被替换，但是采用原生webview打开后，三个页面同时存在
 
@@ -256,7 +256,7 @@ __那些H5开发中遇到最多的页面__
 
 ## 返回根目录
 
-- [【quickhybrid】如何实现一个Hybrid框架](../quickhybrid_preface/quickhybrid_preface.md)
+- [【quickhybrid】如何实现一个Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/12)
 
 ## 源码
 

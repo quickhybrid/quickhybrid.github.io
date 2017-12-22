@@ -34,9 +34,9 @@
 
 - 多平台支持并不是所有API都会支持，而是指一些常用的API在多个平台下都有实现（比如`UI`类API一般都会支持，但是原生设备相关就不会在浏览器支持）
 
-![](images/quickhybrid_multiplatform.png)
+![](https://quickhybrid.github.io/staticresource/images/quickhybrid_multiplatform.png)
 
-![](images/quickhybrid_apiimpl.png)
+![](https://quickhybrid.github.io/staticresource/images/quickhybrid_apiimpl.png)
 
 ## 【目标分析】需要哪些工作
 
@@ -60,43 +60,39 @@
 
 ## 【分解目标】总体规划
 
-- [【quick hybrid】JSBridge的实现](../quickhybrid_jsbridge/quickhybrid_jsbridge.md)
+- 【quick hybrid】JSBridge的实现
 
-- [【quick hybrid】H5和原生的职责划分](../quickhybrid_h5ornative/quickhybrid_h5ornative.md)
+- 【quick hybrid】H5和原生的职责划分
 
-- [【quick hybrid】API的分类：短期API、长期API](../quickhybrid_apiclassify/quickhybrid_apiclassify.md)
+- 【quick hybrid】API的分类：短期API、长期API
 
-- [【quick hybrid】API规划](../quickhybrid_apiplanning/quickhybrid_apiplanning.md)
+- 【quick hybrid】API规划
 
 拓展：
 
-- [【quick hybrid】H5和Native交互原理](../quickhybrid_native2h5interaction/quickhybrid_native2h5interaction.md)
+- 【quick hybrid】H5和Native交互原理
 
 ## 【分解目标】API的实现
 
-- [【quick hybrid】API多平台支撑的实现](../quickhybrid_apimultiplatform/quickhybrid_apimultiplatform.md)
+- 【quick hybrid】API多平台支撑的实现
 
-- [【quick hybrid】组件（自定义）API的实现](../quickhybrid_apicomponents/quickhybrid_apicomponents.md)
+- 【quick hybrid】组件（自定义）API的实现
 
-- [【quick hybrid】JS端的项目实现](../quickhybrid_apijs/quickhybrid_apijs.md)
+- 【quick hybrid】JS端的项目实现
 
-- [【quick hybrid】Android端的项目实现](../quickhybrid_apiandroid/quickhybrid_apiandroid.md)
+- 【quick hybrid】Android端的项目实现
 
-- [【quick hybrid】iOS端的项目实现](../quickhybrid_apiios/quickhybrid_apiios.md)
+- 【quick hybrid】iOS端的项目实现
 
 ## 【分解目标】优化与完善
 
-- 【quick hybrid】优化与完善
+- 账号体系、Cookie还是Token？
 
-    - 基于Socket打造Hybrid调试页面
-
-    - 账号体系、Cookie还是Token？
-
-    - hybrid容器的优化
+- hybrid容器的优化与完善
 
 ## 返回根目录
 
-- [【quickhybrid】如何实现一个Hybrid框架](../quickhybrid_preface/quickhybrid_preface.md)
+- [【quickhybrid】如何实现一个Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/12)
 
 ## 源码
 

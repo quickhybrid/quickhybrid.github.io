@@ -12,7 +12,7 @@
 
 交互原理图如下：
 
-![](images/jsbridge_principle.png)
+![](https://quickhybrid.github.io/staticresource/images/jsbridge_principle.png)
 
 ## 预计的最终效果
 
@@ -53,7 +53,7 @@ callHandler({
 
 因此我们需要先从大方向上把功能交互确定好，然后再开始构建细节，编码实现
 
-![](images/jsbridge_structure.png)
+![](https://quickhybrid.github.io/staticresource/images/jsbridge_structure.png)
 
 ## 功能分析与确认
 
@@ -413,7 +413,7 @@ API如何实现？可以参考上文中Android的继承`IBridgeImpl`法以及iOS
 
 最后再来一张图巩固下把
 
-![](images/jsbridge_interact.png)
+![](https://quickhybrid.github.io/staticresource/images/jsbridge_interact.png)
 
 至此，整个JSBridge交互就已经完成了
 
@@ -428,7 +428,7 @@ API如何实现？可以参考上文中Android的继承`IBridgeImpl`法以及iOS
 
 ## 返回根目录
 
-- [【quickhybrid】如何实现一个Hybrid框架](../quickhybrid_preface/quickhybrid_preface.md)
+- [【quickhybrid】如何实现一个Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/12)
 
 ## 源码
 

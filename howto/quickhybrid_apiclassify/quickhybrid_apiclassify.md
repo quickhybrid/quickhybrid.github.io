@@ -35,7 +35,7 @@ event
 
 如下图
 
-![](images/quickhybrid_apiclassify.png)
+![](https://quickhybrid.github.io/staticresource/images/quickhybrid_apiclassify.png)
 
 ## 在代码层次两者有何区别？
 
@@ -161,7 +161,7 @@ iOS和Android中相比，虽然实现代码不一样，但是逻辑是一致的�
 
 ## 返回根目录
 
-- [【quickhybrid】如何实现一个Hybrid框架](../quickhybrid_preface/quickhybrid_preface.md)
+- [【quickhybrid】如何实现一个Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/12)
 
 ## 源码
 

@@ -22,7 +22,7 @@ quick.page.xxx
 
 此时，就需要对框架内容和项目内容进行区分，于是就有了框架API和组件API的概念（此时可以认为原生中框架文件是单独打成一个静态包给项目引用的，项目无法直接修改）
 
-![](images/quick_apicomponents.png)
+![](https://quickhybrid.github.io/staticresource/images/quick_apicomponents.png)
 
 __框架API__
 
@@ -44,7 +44,7 @@ __组件API__
 
 - 所有组件API都只是quick环境下的实现（一般都是一些原生中集成的拓展功能）
 
-![](images/quick_apicomponents2.png)
+![](https://quickhybrid.github.io/staticresource/images/quick_apicomponents2.png)
 
 ## 项目中如何拓展组件API
 
@@ -169,7 +169,7 @@ quick.callApi({
 
 ## 返回根目录
 
-- [【quickhybrid】如何实现一个Hybrid框架](../quickhybrid_preface/quickhybrid_preface.md)
+- [【quickhybrid】如何实现一个Hybrid框架](https://github.com/quickhybrid/quickhybrid/issues/12)
 
 ## 源码
 
