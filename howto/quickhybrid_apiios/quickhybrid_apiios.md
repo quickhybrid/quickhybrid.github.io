@@ -62,6 +62,28 @@ quickhybird
     |- qhjsmodules.plist            // 内部定义模块的别名于路径关系的配置文件
 ```
 
+## 权限配置
+
+iOS可以直接在info.plist中配置权限，譬如
+
+```js
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>是否允许应用使用摄像头？</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>是否允许应用使用定位功能</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>是否允许应用使用麦克风？</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>是否允许访问相册</string>
+    <key>UIFileSharingEnabled</key>
+    ...
+```
+
 ## 应用配置
 
 ```js
@@ -149,7 +171,9 @@ window.webkit.messageHandlers.WKWebViewJavascriptBridge.postMessage(...);
 
 ### 其它
 
-和Android实现中提到的一样，其它内容，这里就不再赘述了，可以直接参考源码
+iOS中还有一点和Android不同就是，很多标准的HTML5内容无需额外兼容（譬如fileinput文件选择等）
+
+其它内容，和Android实现中提到的一样，这里就不再赘述了，可以直接参考源码
 
 另外，后续如果继续有容器优化等操作，也会单独整理，加入本系列。
 
